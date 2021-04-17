@@ -7,12 +7,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: linear-gradient(120deg, lightblue,rgb(76,76,95));
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+}
 /* header components */
 
 .nav-header {
+  min-height: 10vh;
   display: flex;
   justify-content: space-between;
   background-color: rgb(136, 136, 218);
+  align-items: center;
 }
 header h2 {
   color: rgb(76, 76, 95);

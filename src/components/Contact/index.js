@@ -28,6 +28,14 @@ function Contact(){
   </div>
   <div className="row">
     <div className="col-25">
+      <label for="lname">Email</label>
+    </div>
+    <div className="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your email.."/>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-25">
       <label for="country">Country</label>
     </div>
     <div className="col-75">
