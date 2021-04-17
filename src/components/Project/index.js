@@ -1,10 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 
 
 function Project() {
     return(
-        <section> 
-                <div className="my-work">
+        <StyledProject id = "project"> 
+                <div className="myWork">
                     <h2 className="my-works-title">Jephte's work</h2>
                 </div>
                 <div className="all-work">
@@ -42,7 +43,19 @@ function Project() {
                     </div>
                 </div>
             
-        </section>
+        </StyledProject>
     )
 }
+
+const StyledProject = styled.section`
+.myWork{
+    align-items:center;
+}
+
+
+
+
+`
+
+
 export default Project

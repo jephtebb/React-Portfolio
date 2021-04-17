@@ -1,12 +1,15 @@
 import React from "react";
+import '../styles.css'
 
 function Navigation() {
   return (
-    <header>
-      <h2>
+    <header className="nav-header">
+       <h2>
         Jephte Borno
-      </h2>
+        </h2>
+     
       <nav className="nav-bar">
+        
         <ul className="ulist">
           <li className="mx-2">
             <a href="#about">About me</a>
