@@ -40,3 +40,117 @@ nav > li > a:focus {
     text-decoration: none;
     background-color: #eee;
 }
+
+
+
+/* About me Section */
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+}
+.description{
+    max-width: 60%;
+}
+.about-me{
+    max-width: 40%;
+}
+
+
+/* portfolio */
+.myWork{
+    text-align: center;
+}
+
+.column {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.all-work-content {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+  
+  .one{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(136, 136, 218);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url('../images/noteTaker.PNG');
+      
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+  }
+  .two{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(136, 136, 218);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+      background: url('../images/zookeeper.PNG');
+      background-position: left; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+  }
+  .three{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(136, 136, 218);
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background: url('../images/dev-connect.PNG');
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.four{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(136, 136, 218);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background: url('../images/exploreOutdoors.PNG');
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.five{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(136, 136, 218);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background: url('../images/workdayscheduler.PNG');
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.six{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(136, 136, 218);
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background: url('../images/todolist.PNG');
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+

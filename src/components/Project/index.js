@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import '../styles.css'
 
 
 function Project() {
@@ -10,36 +11,36 @@ function Project() {
                 </div>
                 <div className="all-work">
                     <div className="all-work-content">
-                        <a href="https://dev-connect-ac.herokuapp.com/login" target="_blank">
-                            <div>
-                                <p className="projectName dc">Dev Connect</p>
-                            </div>
+                        <div className="one">
+                        <a className="column" href="https://dev-connect-ac.herokuapp.com/login" target="_blank">
+                          
                         </a>
-                        <a href="https://sleepy-hollows-15649.herokuapp.com/" target="_blank">
-                            <div>
-                                <p className="projectName zk">Zookeeper</p>
-                            </div>
+                        </div>
+                        <div className="two">
+                        <a className="column" href="https://sleepy-hollows-15649.herokuapp.com/" target="_blank">
+                           
                         </a>
-                        <a href="https://pran-notes.herokuapp.com/" target="_blank">
-                            <div>
-                                <p className="projectName">Note Taker</p>
-                            </div>
+                        </div>
+                        <div className="three">
+                        <a className="column" href="https://pran-notes.herokuapp.com/" target="_blank">
+                           
                         </a>
-                        <a href="https://jephtebb.github.io/Explore-Outdoors/" target="_blank" >
-                            <div>
-                                <p className="projectName eo">Explore Outdoors</p>
-                            </div>
+                        </div>
+                        <div className="four">
+                        <a className="column" href="https://jephtebb.github.io/Explore-Outdoors/" target="_blank" >
+                           
                         </a>
-                        <a href="https://jephtebb.github.io/Work-Day-Scheduler/" target="_blank">
-                            <div>
-                                <p className="projectName wds">Work Day Scheduler</p>
-                            </div>
+                        </div>
+                       <div className="five"> 
+                        <a className="column" href="https://jephtebb.github.io/Work-Day-Scheduler/" target="_blank">
+                            
                         </a>
-                        <a href="https://jephtebb.github.io/Todo-List/" target="_blank">
-                            <div>
-                                <p className="projectName tdl">ToDo List</p>
-                            </div>
+                       </div>
+                        <div className="six">
+                        <a className="column" href="https://jephtebb.github.io/Todo-List/" target="_blank">
+                           
                         </a>
+                        </div>
                     </div>
                 </div>
             
