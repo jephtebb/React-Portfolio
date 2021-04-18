@@ -11,14 +11,13 @@ function Footer() {
 
     return (
         <section>
-            <footer>
+            <footer className="footer">
                 <h1>
                     Made with {Love} by Jephte Borno
                 </h1>
                 <div className="social">
-                    <div className="facebook"></div>
-                    <div className="twitter"></div>  
-                    <div className="lindin"></div>
+                <p>You can contact me via email:<br/>
+                 <a href="mailto:hege@example.com">jephteborno@yahoo.com</a></p>
                 </div>
                 
             </footer>

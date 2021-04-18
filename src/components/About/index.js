@@ -3,17 +3,15 @@ import image from "../../assets/hero/myImage.png";
 
 function About() {
   return (
-    <section className="my-5">
+    <section id="about" className="my-5">
       <div className="about-section">
 
         <p className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+        I am a recent graduate of the coding bootcamp at the University of Central Florida. I am officially a full Stack Web Developer.
+        I am currently looking for job as either front-end developer or back-end. 
+        I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.
+        I like dabbling in various parts of frontend and back-end development and like to learn about new technologies.
+        
         </p>
         <div className="about-me">
           <div className="name">Jephte Borno</div>

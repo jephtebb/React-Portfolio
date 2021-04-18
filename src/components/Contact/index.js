@@ -5,7 +5,7 @@ import '../styles.css'
 function Contact(){
     return(
         
-<div className="container">
+<div id="contact" className="container">
     <div className="contact-me">
         <h2>Contact Me</h2>
     </div>
