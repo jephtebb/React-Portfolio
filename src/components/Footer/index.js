@@ -5,7 +5,9 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 
 
+
 const Love = <FontAwesomeIcon icon={faHeart} />
+
 function Footer() {
 
 
@@ -18,6 +20,7 @@ function Footer() {
                 <div className="social">
                 <p>You can contact me via email:<br/>
                  <a href="mailto:hege@example.com">jephteborno@yahoo.com</a></p>
+                 <i className="fab fa-linkedin-in"></i>
                 </div>
                 
             </footer>

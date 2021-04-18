@@ -57,26 +57,21 @@ nav > li > a:focus {
 
 /* About me componenets */
 
-.about-section {
-  display: flex;
-  justify-content: space-around;
-  width:80%;
-  margin: auto;
-}
-.name{
-    text-align: center;
-}
+
 .description {
-  max-width: 50%;
+    width:80%;
+    margin: auto;
 }
 .about-me {
-  max-width: 40%;
+  width:80%;
+  margin: auto;
 }
 
 /* portfolio components*/
 #project{
     width:80%;
-    margin: auto;
+    margin: 10px auto;
+    ;
 }
 .myWork {
   text-align: center;

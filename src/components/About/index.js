@@ -14,7 +14,7 @@ function About() {
         
         </p>
         <div className="about-me">
-          <div className="name">Jephte Borno</div>
+          
           <img
           src={image}
           className="my-2"
