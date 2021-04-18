@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.8c558324.chunk.css",
+    "main.js": "/photo-port/static/js/main.2773c85f.chunk.js",
+    "main.js.map": "/photo-port/static/js/main.2773c85f.chunk.js.map",
+    "runtime-main.js": "/photo-port/static/js/runtime-main.a92bda9f.js",
+    "runtime-main.js.map": "/photo-port/static/js/runtime-main.a92bda9f.js.map",
+    "static/js/2.8c848332.chunk.js": "/photo-port/static/js/2.8c848332.chunk.js",
+    "static/js/2.8c848332.chunk.js.map": "/photo-port/static/js/2.8c848332.chunk.js.map",
+    "static/js/3.e0caf31e.chunk.js": "/photo-port/static/js/3.e0caf31e.chunk.js",
+    "static/js/3.e0caf31e.chunk.js.map": "/photo-port/static/js/3.e0caf31e.chunk.js.map",
+    "index.html": "/photo-port/index.html",
+    "static/css/main.8c558324.chunk.css.map": "/photo-port/static/css/main.8c558324.chunk.css.map",
+    "static/js/2.8c848332.chunk.js.LICENSE.txt": "/photo-port/static/js/2.8c848332.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/photo-port/static/media/zookeeper.6a41779d.PNG",
+    "static/media/myImage.2cee7b86.png": "/photo-port/static/media/myImage.2cee7b86.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a92bda9f.js",
+    "static/js/2.8c848332.chunk.js",
+    "static/css/main.8c558324.chunk.css",
+    "static/js/main.2773c85f.chunk.js"
+  ]
+}
