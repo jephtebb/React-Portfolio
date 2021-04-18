@@ -56,11 +56,29 @@ nav > li > a:focus {
 }
 
 /* About me componenets */
-
-
-.description {
-    width:80%;
-    margin: auto;
+.about-section{
+  display:flex;
+  justify-content: space-between;
+  width:80%;
+  margin:auto;
+  align-items: center;
+}
+.tag{
+  width:20%;
+}
+.desc-tags{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name{
+  text-align: center;
+}
+.description{
+  width:70%;
+  text-align: center;
 }
 .about-me {
   width:80%;
@@ -245,4 +263,24 @@ input[type=submit]:hover {
     text-decoration: none;
     color:rgb(76, 76, 95);
     
+}
+@media screen and (max-width:680px){
+  .about-section{
+    display: block;
+  }
+  .description{
+    width:100%;
+    text-align: center;
+  }
+  .nav-header{
+    display: flex;
+    flex-direction:column;
+  }
+  .name-header{
+    text-align: center;
+  }
+  .ulist{
+    width:100%;
+    max-width: 100%;
+  }
 }

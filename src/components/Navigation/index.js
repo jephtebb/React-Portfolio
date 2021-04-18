@@ -4,7 +4,7 @@ import '../styles.css'
 function Navigation() {
   return (
     <header className="nav-header">
-       <h2>
+       <h2 className="name-header">
         Jephte Borno
         </h2>
      
